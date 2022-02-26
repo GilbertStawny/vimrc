@@ -13,6 +13,10 @@ To test the configuration or use in a remote session without modifying local fil
 
 `$ vim -Nu <(curl -s https://raw.githubusercontent.com/GilbertStawny/vimrc/main/.vimrc) somefile`
 
+You can also set a temporary alias for your session:
+
+`alias vim='vim -Nu <(curl -s https://raw.githubusercontent.com/GilbertStawny/vimrc/main/.vimrc)'`
+
 Please be mindful using curl in a process redirect,  this practice is generally frowned upon as security issue as you don't know what you're curling right into a command.
 
 If you would like to also add the nifty status bar at the bottom, please folllw instructions included with the 'airline' release. Please note that this makes the vimrc no longer portable as it depends on a plugin to be installed along with fonts.
