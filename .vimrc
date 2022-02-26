@@ -3,6 +3,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+let g:airline_powerline_fonts = 1
+
 set nocompatible
 set background=dark
 set expandtab
