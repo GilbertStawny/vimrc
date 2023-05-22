@@ -12,10 +12,10 @@ To backup your current vimrc and replace it, simply run:
 
 To test the configuration without replacing your existing vim configuration, you can use the -Nu flag to manually specify the configuration file:
 
-`$ vim -Nu ../vimrc/.vimrc somefile`
+`$ vim -Nu ./vimrc/.vimrc somefile`
 
 You can also set a temporary alias for your session:
 
-`alias vim='vim -Nu ../vimrc/.vimrc'`
+`alias vim='vim -Nu ./vimrc/.vimrc'`
 
 If you would like to also add the nifty status bar displayed at the bottom of the screenshot, please follow instructions included with the 'airline' release. Please note that this makes the vimrc no longer portable as it depends on a plugin to be installed along with fonts.
