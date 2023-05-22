@@ -7,7 +7,7 @@ This vimrc has a color scheme baked into it, along with tab auto completion and 
 
 To backup your current vimrc and replace it, simply run:
 
-`$ git clone git@github.com:lacework-support-tools/vimrc.git`
+`$ git clone git@github.com:lacework-support-tools/vimrc.git`  
 `$ mv ~/.vimrc{,-bak} && mv ./vimrc/.vimrc ~/.vimrc`
 
 To test the configuration without replacing your existing vim configuration, you can use the -Nu flag to manually specify the configuration file:
