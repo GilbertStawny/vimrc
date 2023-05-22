@@ -12,7 +12,7 @@ To backup your current vimrc and replace it, simply run:
 
 To test the configuration without replacing your existing vim configuration, you can use the -Nu flag to manually specify the configuration file:
 
-`$ vim -Nu ../vimrc/.vimrc) somefile`
+`$ vim -Nu ../vimrc/.vimrc somefile`
 
 You can also set a temporary alias for your session:
 
